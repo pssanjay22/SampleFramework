@@ -14,4 +14,9 @@ public class CreateContactTest {
 	public void createProduct() {
 		System.out.println("==========product created============");
 	}
+	@Test
+	public void ModifyProduct() {
+		System.out.println("==========product Modified by Divya.============");
+	}
+	
 }
