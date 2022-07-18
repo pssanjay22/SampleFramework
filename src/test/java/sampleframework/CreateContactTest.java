@@ -11,6 +11,11 @@ public class CreateContactTest {
 	
 	@Test
 	public void createProduct() {
-		System.out.println("==========product created============");
+		System.out.println("<==========product created============>");
+	}
+	
+	public void createCampaign()
+	{
+		System.out.println("==========Campaign created============");
 	}
 }
