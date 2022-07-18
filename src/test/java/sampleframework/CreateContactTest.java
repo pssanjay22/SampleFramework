@@ -13,4 +13,8 @@ public class CreateContactTest {
 	public void createProduct() {
 		System.out.println("==========product created============");
 	}
+	@Test
+	public void createProductandDeleted() {
+		System.out.println("==========product deleted============");
+	}
 }
