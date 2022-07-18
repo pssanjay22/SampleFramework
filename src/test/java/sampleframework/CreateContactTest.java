@@ -14,5 +14,21 @@ public class CreateContactTest {
 	public void createProduct() {
 		System.out.println("==========product created============");
 		System.out.println("This is chandu sunag");
+		System.out.println("<==========product created============>");
 	}
+	
+	public void createCampaign()
+	{
+		System.out.println("==========Campaign created============");
+	}
+	@Test
+	public void createProductandDeleted() {
+		System.out.println("==========product deleted============");
+	}
+  @Test
+	public void ModifyProduct() {
+		System.out.println("==========product Modified by Divya.============");
+	}
+	
+
 }
