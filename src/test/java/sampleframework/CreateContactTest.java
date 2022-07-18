@@ -15,8 +15,13 @@ public class CreateContactTest {
 		System.out.println("==========product created============");
 	}
 	@Test
+	public void createProductandDeleted() {
+		System.out.println("==========product deleted============");
+	}
+  @Test
 	public void ModifyProduct() {
 		System.out.println("==========product Modified by Divya.============");
 	}
 	
+
 }
